@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "ff-meta-web-pro", sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 100%;
+    line-height: 26px;
+    margin: 0;
+    color: #0d2c40;
+    /* background: #f6efe5;
+    background-size: 60%;
+    color: #0d2c40; */
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f6efe5;
+}
+
+header {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    height: 50em;
+    background-color: #c879b2;
+    position: relative;
+}
+
+header > h1 {
+    margin: 0;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 4.2em;
+    left: -3em;
+    font-size: 100%;
+    line-height: 2em;
+    padding: 1em;
+    color: #ffffff;
+}
+
+header > h2 {
+    background-color: #0d2c40;
+    width: 50%;
+    margin: 0;
+    margin-left: 50%;
+    position: relative;
+    font-size: 250%;
+    line-height: 1.25em;
+    padding: 6em 0.5em 0 0.5em;
+    height: 20.019em;
+    color: #ffffff;
+}
+
+header > h2::after {
+    content: "";
+    background-image: url(assets/icon-star.svg);
+    background-size: 101%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.summary {
+    width: 60%;
+    background-color: #c879b2;
+    display: flex;
+    flex-direction: column;
+    height: 50em;
+    padding: 16.3em 2em 10em 2em;
+    position: relative;
+    color: #ffffff;
+}
+
+.summary > p {
+    padding: 0 40% 2em 0;
+    margin: 0;
+}
+
+.summary > p > a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.summary::after {
+    content: "";
+    background-image: url(assets/icons-3-pack.svg);
+    background-size: 101%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.preamble {
+    background-color: #f6efe5;
+    margin-left: 20%;
+    position: relative;
+    padding: 8em 0.5em 32em 0;
+    width: 60.1%;
+}
+
+.preamble > h3 {
+    margin-right: 35%;
+    font-size: 150%;
+}
+
+.preamble > p:nth-child(2) {
+    margin-right: 35%;
+}
+
+.preamble > p:nth-child(3) {
+    margin-right: 35%;
+}
+
+.preamble > p:nth-child(4) {
+    background-color: rgba(0, 188, 217, 0.8);
+    position: absolute;
+    top: -1em;
+    right: 0;
+    width: 33.650%;
+    padding: 10em 1em 20em 1em;
+    color: #ffffff;
+}
