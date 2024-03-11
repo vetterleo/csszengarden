@@ -9,9 +9,6 @@ html, body {
     line-height: 26px;
     margin: 0;
     color: #0d2c40;
-    /* background: #f6efe5;
-    background-size: 60%;
-    color: #0d2c40; */
 }
 
 .intro {
@@ -23,8 +20,6 @@ html, body {
 
 header {
     width: 40%;
-    display: flex;
-    flex-direction: row;
     height: 50em;
     background-color: #c879b2;
     position: relative;
@@ -71,8 +66,6 @@ header > h2::after {
 .summary {
     width: 60%;
     background-color: #c879b2;
-    display: flex;
-    flex-direction: column;
     height: 50em;
     padding: 16.3em 2em 10em 2em;
     position: relative;
